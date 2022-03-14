@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "source-path": [
+            "src",
+            "classes"
+        ],
+        "library-path": [
+            "swc/as3crypto.swc",
+            "swc/CasaLib_1.4.1.swc",
+            "swc/feathers.swc",
+            "swc/PNGEncoder2.swc",
+            "swc/starling.swc"
+        ],
+        "default-frame-rate": 60,
+        "output": "bin/Scribble.swf",
+        "external-library-path": [],
+        "default-background-color": "#ffffff"
+    },
+    "airOptions": {
+        "android": {
+            "output": "bin/Scribble.apk",
+            "listen": true,
+            "arch": "armv8",
+            "signingOptions": {
+                // "storetype": "pkcs12",
+                // "keystore": "keys/genix.p12"
+            }
+        },
+        "extdir": [],
+        "files": []
+    },
+    "application": "src/Scribble-app.xml",
+    "config": "airmobile",
+    "copySourcePathAssets": true,
+    "mainClass": "Scribble"
+}

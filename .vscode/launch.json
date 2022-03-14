@@ -1,0 +1,90 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "swf",
+            "request": "launch",
+            "name": "Launch AIR mobile",
+            "profile": "mobileDevice",
+            "screensize": "iPhoneRetina",
+            "screenDPI": 326,
+            "versionPlatform": "IOS"
+        },
+        {
+            "type": "swf",
+            "request": "launch",
+            "name": "Launch AIR desktop"
+        },
+        {
+            "type": "swf",
+            "request": "attach",
+            "name": "Install & Attach Adobe AIR (Android)",
+            "connect": true,
+            "platform": "android"
+        },
+        {
+            "type": "swf",
+            "request": "launch",
+            "name": "Launch SWF",
+            //"program": "bin/Genix.swf",
+            "profile": "mobileDevice",
+            "screensize": "iPhoneRetina",
+            "screenDPI": 384,
+            //"versionPlatform": "android"
+        },
+        {
+            "type": "swf",
+            "request": "attach",
+            "name": "Attach SWF",
+            //"program": "bin/Genix.swf",
+            "connect": true,
+            "platform": "android"
+        },
+        {
+            "type": "swf",
+            "request": "launch",
+            "name": "Launch AIR nexus mobile",
+            "profile": "mobileDevice",
+            "screensize": "NexusOne",
+            "screenDPI": 252,
+            "versionPlatform": "AND"
+        },
+        {
+            "type": "swf",
+            "request": "launch",
+            "name": "Launch AIR iphone6 mobile",
+            "profile": "mobileDevice",
+            "screensize": "iPhone6",
+            "screenDPI": 326,
+            "versionPlatform": "IOS"
+        },
+        {
+            "type": "swf",
+            "request": "launch",
+            "name": "Launch AIR 480p mobile",
+            "profile": "mobileDevice",
+            "screensize": "384x800:384x800",
+            "screenDPI": 326
+        },
+        {
+            "type": "swf",
+            "request": "launch",
+            "name": "Launch Tablet",
+            "profile": "mobileDevice",
+            "screensize": "768x1024:768x1024",
+            "screenDPI": 326
+        },
+        {
+            "type": "swf",
+            "request": "launch",
+            "name": "Klaus Phone",
+            "profile": "mobileDevice",
+            "screensize": "540x960:540x960",
+            "screenDPI": 326
+        }
+
+    ]
+}
