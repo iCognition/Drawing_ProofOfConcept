@@ -12,6 +12,7 @@ package
     import starling.events.TouchPhase;
     import flash.geom.Point;
     import component.BlackboardComponent;
+    import component.NewComponent;
     
     
     
@@ -20,7 +21,7 @@ package
 
         private var container:Quad;
         private var blackboard:BlackboardComponent;
-
+        private var newComp:NewComponent;
         
 
         public function MyApp()
@@ -46,10 +47,13 @@ package
 
         private function onAddedToStage(event:Event):void
         {
-            trace("on added to stage")
-            blackboard = new BlackboardComponent();
-            blackboard.initialize();
-            this.addChild(blackboard);
+            // trace("on added to stage")
+            // blackboard = new BlackboardComponent();
+            // blackboard.initialize();
+            // this.addChild(blackboard);
+            newComp = new NewComponent();
+            newComp.initialize();
+            this.addChild(newComp)
         
         }
 
