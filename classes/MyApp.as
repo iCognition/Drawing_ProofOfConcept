@@ -32,6 +32,7 @@ package
 
         public function initialize():void
         {
+            trace("my app initialize");
             // container = new Sprite();
             // this.addChild(container);
 
@@ -47,7 +48,7 @@ package
 
         private function onAddedToStage(event:Event):void
         {
-            // trace("on added to stage")
+            trace("my app on added to stage")
             // blackboard = new BlackboardComponent();
             // blackboard.initialize();
             // this.addChild(blackboard);
